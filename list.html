@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ショッピングサイト</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <!-- Owl Carouselを動作させるために追加 -->
+        <script src="test-carousel.js"></script>
+    </head>
+    <body class="body">
+        <div class="wrapper">
+        <div id="headder" class="clearfix">
+            <div id="logo">
+                <a href="index.html"><img src="images/logo.png" alt="ロゴマーク" srcset="images/logo@2x.png 2x" /></a>
+            </div><!--logo-->
+            <div id="g_nav" class="clearfix">
+                <ul id="main_navi">
+                    <a href="#"><li><img src="images/menu_login.png" alt="ログイン" srcset="images/menu_login@2x.png 2x" /></li></a>
+                    <a href="#"><li><img src="images/menu_cart.png" alt="カート" srcset="images/menu_cart@2x.png 2x" /></li></a>
+                    <a href="#"><li><img src="images/menu_mypage.png" alt="マイページ" srcset="images/menu_mypage@2x.png 2x" /></li></a>
+                    <a href="#"><li><img src="images/menu_guide.png" alt="ショッピングガイド" srcset="images/menu_guide@2x.png 2x" /></li></a>
+                </ul>
+                <ul id="sns_navi">
+                    <a href="#"><li><img src="images/facebook.png" alt="facebook" srcset="images/fb@2x.png 2x" /></li></a>
+                    <a href="#"><li><img src="images/insta.png" alt="Instagram" srcset="images/insta@2x.png 2x" /></li></a>
+                </ul>
+            </div><!--g_navi-->
+        </div><!--headder-->
+        
+        <div id="headder01" class="clearfix">
+            <div id="logo01">
+                <a href="index.html"><img src="images/logo.png" alt="ロゴマーク" srcset="images/logo@2x.png 2x" /></a>
+            </div><!--logo-->
+            <div id="g_nav01" class="clearfix">
+                <ul id="sns_navi">
+                    <a href="#"><li><img src="images/facebook.png" alt="facebook" srcset="images/fb@2x.png 2x" /></li></a>
+                    <a href="#"><li><img src="images/insta.png" alt="Instagram" srcset="images/insta@2x.png 2x" /></li></a>
+                    <a href="#"><li id="menu"><img src="images/menu_icon.png" alt="Instagram" srcset="images/menu_icon@2x.png 2x" /></li></a>
+                    <ol class="sp_menu_toggle">
+                        <a href="#"><li><div class="menu_top"><img src="images/menu_login.png" alt="ログイン" srcset="images/menu_login@2x.png 2x" /></div></li></a>
+                        <a href="#"><li><img src="images/menu_cart.png" alt="カート" srcset="images/menu_cart@2x.png 2x" /></li></a>
+                        <a href="#"><li><img src="images/menu_mypage.png" alt="マイページ" srcset="images/menu_mypage@2x.png 2x" /></li></a>
+                        <a href="#"><li><img src="images/menu_guide.png" alt="ショッピングガイド" srcset="images/menu_guide@2x.png 2x" /></li></a>
+                    </ol>
+                </ul>
+            </div><!--g_nav01-->
+        </div><!--headder01-->
+        
+        
+        <div id="contents">
+            <div class="container clearfix">
+                <div id="main">
+                    <div class="pan clearfix" >
+                        <div class="pan_img"><img src="images/home_icon.png" alt="ホームアイコン" /></div>
+                        <div class="pan_text"><p><a href="index.html">HOME</a> / <a href="list.html">カテゴリー名</a></p></div>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="carusel">
+                        <div class="headder-image"><img src="images/cate_image.jpg" alt="ヘッダー画像" /></div>
+                    </div><!--carousel-->
+                    <div class="space"></div>
+                    <div class="item">
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_01.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_02.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_03.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box01-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_04.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_05.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_06.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box01-->
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_01.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_02.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_03.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box01-->
+                        </div><!--area-->
+                        <div class="b_n">
+                        <div class="back"><a href="#"><img src="images/back.png" alt="back"/></a></div>
+                        <div class="next"><a href="#"><img src="images/next.png" alt="next"/></a></div>
+                        </div>
+                    </div><!--item-->
+                    <h1><img src="images/recent_pro_pc.png"></h1>
+                    <div class="item">
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_07.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_08.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_09.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box01-->
+                        </div><!--area-->
+                    </div><!--item-->
+                    <h1><img src="images/title_guide.png"></h1>
+                    <div class="guidearea clearfix">
+                        <div class="guide">
+                            <div class="guide_n">
+                                <h2>お届けについて</h2>
+                                <img src="images/otodoke_banner.png" alt="お届けについて" />
+                                <h3>■◯◯運輸</h3>
+                                <p>送料 ¥000 円</p>
+                                <h3>■ゆうパケット</h3>
+                                <p>ポスト投函となります。日時指定不可</p>
+                            </div><!--guide_n-->
+                        </div><!--guide-->
+                        <div class="guide01">
+                            <div class="guide_n">
+                                <h2>決済について</h2>
+                                <h3>■カード決済</h3>
+                                <img src="images/cards.png" alt="カード決済について" />
+                                <h3>■代金引換</h3>
+                                <p>代引き手数料が別途かかります</p>
+                                <h3>■銀行振込</h3>
+                                <p>お振込手数料お客様負担。<br>
+                                ご入金後の発送となります。</p>
+                            </div><!--guide_n-->
+                        </div><!--guide01-->
+                    </div><!--guidearea-->
+                </div><!--main-->
+                
+                
+                
+                <div id="s_main">
+                    <div class="pan clearfix" >
+                        <div class="pan_img"><img src="images/home_icon.png" alt="ホームアイコン" /></div>
+                        <div class="pan_text"><p><a href="index.html">HOME</a> / <a href="list.html">カテゴリー名</a></p></div>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="carusel">
+                        <div class="headder-image"><img src="images/cate_image_sp.jpg" alt="ヘッダー画像" /></div>
+                    </div><!--carousel-->
+                    <div class="space"></div>
+                    <div class="item">
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_01.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_02.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_03.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_04.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box01-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_05.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_06.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div> <!--box01-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_01.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <a href="products.html"><img src="images/item_02.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <a href="products.html"><img src="images/item_03.jpg" alt="アイテム１"/></a>
+                                <a href="products.html"><p>商品名が入ります商品名が入ります商品名が入ります</p></a>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                        </div><!--area-->
+                        <div class="b_n clearfix">
+                        <div class="back"><a href="#"><img src="images/back.png" alt="back"/></a></div>
+                        <div class="next"><a href="#"><img src="images/next.png" alt="next"/></a></div>
+                        </div>
+                    </div><!--item-->
+                    <h1><img src="images/title_recent_pro.png" srcset="images/title_recent_pro@2x.png 2x" /></h1>
+                    <div class="item">
+                        <div class="area clearfix">
+                            <div class="box">
+                                <img src="images/item_07.jpg" alt="アイテム１"/>
+                                <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                            <div class="box01">
+                                <img src="images/item_08.jpg" alt="アイテム１"/>
+                                <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                        </div><!--area-->
+                        <div class="area clearfix">
+                            <div class="box">
+                                <img src="images/item_09.jpg" alt="アイテム１"/>
+                                <p>商品名が入ります商品名が入ります商品名が入ります</p>
+                                <p>¥10,000 (tax in)</p>
+                            </div><!--box-->
+                        </div><!--area-->
+                    </div><!--item-->
+                    <h1><img src="images/title_new_item.png" srcset="images/title_new_item@2x.png 2x" /></h1>
+                    <div class="guidearea clearfix">
+                        <div class="guide">
+                            <div class="guide_n">
+                                <h2>お届けについて</h2>
+                                <img src="images/otodoke_banner.png" alt="お届けについて" />
+                                <h3>■◯◯運輸</h3>
+                                <p>送料 ¥000 円</p>
+                                <h3>■ゆうパケット</h3>
+                                <p>ポスト投函となります。日時指定不可</p>
+                            </div><!--guide_n-->
+                        </div><!--guide-->
+                        <div class="guide01">
+                            <div class="guide_n">
+                                <h2>決済について</h2>
+                                <h3>■カード決済</h3>
+                                <img src="images/cards.png" alt="カード決済について" />
+                                <h3>■代金引換</h3>
+                                <p>代引き手数料が別途かかります</p>
+                                <h3>■銀行振込</h3>
+                                <p>お振込手数料お客様負担。<br>
+                                ご入金後の発送となります。</p>
+                            </div><!--guide_n-->
+                        </div><!--guide01-->
+                    </div><!--guidearea-->
+                </div><!--s_main-->
+                  
+                    
+                    
+                <div id="side">
+                    <div id="serch">
+                        <h2><img src="images/itemserch.png" /></h2>
+                        <form method="get" action="#" class="search">
+                            <div id="serchbox">
+                                <input type="text" name="example" class="textBox" placeholder="Search.." />
+                                <div class="seachicon"><img src="images/search_icon.png" /></div>
+                            </div><!--sechbox-->
+                        </form>
+                    </div> <!--serch-->
+                    <div id="sidever">
+                        <a href="#"><h3 class="clearfix"><p>ページリンク</p><span><img src="images/next_icon.png" alt="矢印" /></span></h3></a>
+                        <a href="#"><h3 class="clearfix"><p>CATEGORIES</p><span class="down"><img src="images/down_icon.png" alt="矢印" /></span></h3></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <a href="list.html"><h4 class="clearfix"><p>カテゴリー名</p><span><img src="images/next_icon_gray.png" alt="矢印" /></span></h4></a>
+                        <h3>ABOUT</h3>
+                        <div class="sidebox clearfix">
+                            <div class="sideimege"><img src="images/about_img.jpg" alt="about写真"></div>
+                            <div class="sidetext">
+                                <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                                <a href="#"><div class="buton"><img src="images/more_btn.png" alt="more"></div></a>
+                            </div>
+                        </div><!--sidebox-->
+                        <h3>SHOP INFO</h3>
+                        <div class="sidebox clearfix">
+                            <div class="sideimege"><img src="images/shopinfo_img.jpg" alt="shopinfo写真"></div>
+                            <div class="sidetext">
+                                <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+                                <a href="#"><div class="buton"><img src="images/more_btn.png" alt="more"/></div></a>
+                            </div>
+                        </div><!--sidebox-->
+                    </div><!--sideber-->
+                    
+                </div><!--side-->
+            </div><!--container-->
+        </div><!--contents-->
+        <div id="footer">
+            <div class="footer_s">
+                <a href="#"><img src="images/pagetop.png" alt="pagetop"/></a>
+            </div><!--footer_t-->
+            <div class="footer_t">
+                <img src="images/pagetop.png" alt="pagetop"/>
+            </div><!--footer_t-->
+            <div class="footer_b">
+                <h5><span>特定商取引に基づく表記</span>・<span>プライバシーポリシー</span>・<span>マイページ</span></h5>
+            </div><!--footer_b-->
+            <h5><p>copyright (C) APPLE BERRY all rights reserved.</p></h5>
+        </div><!--footer-->
+        </div><!--wrapper-->
+    </body>
+</html>
